@@ -1,5 +1,4 @@
 [
-  { "domain": "app1.nl", "service": "app1" },
-  { "domain": "app2.nl", "service": "app2" },
-  { "domain": "app3.nl", "service": "app3" }
+  { "domain": "app1.nl", "repo": "Soetens/app1" },
+  { "domain": "app2.nl", "repo": "Soetens/app2" }
 ]
