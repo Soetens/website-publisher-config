@@ -1,0 +1,5 @@
+[
+  { "domain": "app1.nl", "service": "app1" },
+  { "domain": "app2.nl", "service": "app2" },
+  { "domain": "app3.nl", "service": "app3" }
+]
