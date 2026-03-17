@@ -1,4 +1,3 @@
 [
-  { "domain": "app1.nl", "repo": "Soetens/app1" },
-  { "domain": "app2.nl", "repo": "Soetens/app2" }
+  { "domain": "owner.domains", "repo": "Soetens/domaintools" }
 ]
