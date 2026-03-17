@@ -1,0 +1,19 @@
+name: Deploy sites
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - sites.json
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run deploy script op VPS
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_KEY }}
+          script: bash /apps/deploy.sh
