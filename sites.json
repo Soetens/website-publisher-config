@@ -1,3 +1,5 @@
 [
-  { "domain": "owner.domains", "repo": "Soetens/domaintools", "type": "vite", "v" : 1 }
+  { "domain": "owner.domains", "repo": "Soetens/domaintools", "type": "vite", "v" : 1 },
+    { "domain": "inboxxa.com", "repo": "Soetens/maillander", "type": "vite", "v" : 1 }
+
 ]
